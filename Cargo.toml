@@ -1,0 +1,15 @@
+[package]
+name = "active-web-prj"
+version = "0.1.0"
+authors = ["hongyuanyang <hongyuanyang@huobi.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+jsonrpc-core = "17"
+jsonrpc-core-client = {version= "17", features=["ws", "http"]}
+jsonrpc-pubsub = "17"
+jsonrpc-ws-server = "17"
+jsonrpc-http-server = "17"
+jsonrpc-derive = "17"
